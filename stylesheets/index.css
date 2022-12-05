@@ -1,0 +1,201 @@
+:root {
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* Reset Common Style */
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* Body's style */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 5rem;
+    background-color: blue;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    max-width: 1280px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: .5em;
+    margin-left: .5em;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.logo-title h1 {
+    font-size: 2rem;
+}
+
+.logo-title p {
+    font-size: .8rem;
+}
+
+#logo-icon {
+    height: 4rem;
+    padding-right: 1em;
+    margin-right: 0.5em;
+    border-right: 0.4em solid white;
+}
+.header #chart img {
+  height: 3rem;
+}
+.navbar-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.navbar-links li a {
+    color: white;
+    margin: 0 1em;
+    padding: 0 .5em;
+    font-size: 1.1em;
+}
+
+/* Main Page */
+.main {
+    padding: 1rem;
+    max-width: 1280px;
+    width: 100%;
+    padding: 1rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main h1 {
+    text-align: center;
+}
+
+.catalouge {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.product {
+    height: 20rem;
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-color: gray;
+    border-radius: 1rem;
+}
+
+.product figure,
+.product article,
+.product .add-to-chart {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.product figure img {
+    height: 8rem;
+    margin: .5em 0;
+}
+
+.product figure figcaption,
+.product article {
+    text-align: center;
+}
+
+.product .add-to-chart {
+    margin: .5rem;
+}
+
+.add-to-chart a {
+    width: 100%;
+    outline: none;
+    border: none;
+    background: none;
+    padding: .5em 1em;
+    background-color: hsla(240, 100%, 60%);
+    font-weight: 600;
+    color: hsla(0, 0%, 100%, .75);
+    border-radius: .25em;
+    cursor: pointer;
+}
+
+.add-to-chart a:hover {
+    background-color: hsla(240, 100%, 50%);
+    color: hsla(0, 0%, 100%, 1);
+}
+
+/* Modal styles */
+.modal .modal-dialog {
+    max-width: 400px;
+}
+.modal .modal-header, .modal .modal-body, .modal .modal-footer {
+    padding: 20px 30px;
+}
+.modal .modal-content {
+    border-radius: 3px;
+    font-size: 14px;
+}
+.modal .modal-footer {
+    background: #ecf0f1;
+    border-radius: 0 0 3px 3px;
+}
+.modal .modal-title {
+    display: inline-block;
+}
+.modal .form-control {
+    border-radius: 2px;
+    box-shadow: none;
+    border-color: #dddddd;
+}
+.modal textarea.form-control {
+    resize: vertical;
+}
+.modal .btn {
+    border-radius: 2px;
+    min-width: 100px;
+}	
+.modal form label {
+    font-weight: normal;
+}

@@ -1,0 +1,12 @@
+.status-produk-input input,
+.jumlah-produk-input input,
+.username-input input {
+    width: 70%;
+    outline: none;
+    border: none;
+    background: none;
+    border: 0.2em solid grey;
+    padding: 0.25em;
+    font-size: 1em;
+    border-radius: 0.2em;
+}

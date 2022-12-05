@@ -1,0 +1,12 @@
+.chart-order {
+    margin: 2rem;
+}
+
+.chart-order,
+.chart-order tr,
+.chart-order th,
+.chart-order td {
+    border: 0.2rem solid black;
+    border-collapse: collapse;
+    padding: 1em;
+}

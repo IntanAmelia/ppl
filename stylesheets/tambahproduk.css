@@ -1,0 +1,47 @@
+
+.tombol-batal,
+#add-product {
+    width: 70%;
+    outline: none;
+    border: none;
+    background: none;
+    padding: .5em 1em;
+    background-color: hsla(240, 100%, 60%);
+    font-weight: 600;
+    color: hsla(0, 0%, 100%, .75);
+    border-radius: .25em;
+    cursor: pointer;
+}
+
+#add-product:hover {
+    background-color: hsla(240, 100%, 50%);
+    color: hsla(0, 0%, 100%, 1);
+}
+
+.tombol-batal {
+    text-decoration: none;
+    font-size: .85em;
+    text-align: center;
+    background-color: rgb(255, 51, 51);
+    font-weight: 600;
+    color: hsla(0, 0%, 100%, .75);
+}
+
+.tombol-batal:hover {
+    background-color: rgb(255, 0, 0);
+    color: hsla(0, 0%, 100%, 1);
+}
+
+.nama-produk-input input,
+.stok-produk-input input,
+.harga-produk-input input,
+.gambar-produk-input input {
+    width: 70%;
+    outline: none;
+    border: none;
+    background: none;
+    border: .2em solid grey;
+    padding: .25em;
+    font-size: 1em;
+    border-radius: .2em;
+}

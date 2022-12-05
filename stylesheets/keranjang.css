@@ -1,0 +1,23 @@
+.action {
+    height: 3rem;
+}
+.chart-order {
+    margin: 2rem;
+}
+
+.chart-order,
+.chart-order tr,
+.chart-order th,
+.chart-order td {
+    border: 0.2rem solid black;
+    border-collapse: collapse;
+    padding: 1em;
+}
+
+.checkout-button {
+    margin: 2rem;
+}
+
+.checkout-button a {
+    padding: .5em 10rem;
+}

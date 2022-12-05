@@ -1,0 +1,29 @@
+.menu {
+    height: 15rem;
+    width: 15rem;
+}
+
+.menu a {
+    height: 15rem;
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    background-color: gray;
+    border-radius: 1rem;
+}
+
+.menu figure img {
+    height: 8rem;
+    margin: .5em 0;
+}
+
+.admin-menu-title {
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 600;
+}
